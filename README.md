@@ -1,9 +1,10 @@
 # Raspberry Pi Video Streamer
+
 Python Video Web Streamer for Raspberry Pi
 
 ## Pi Setup
 
-This project was built on a Raspberry Pi Zero 2W. 
+This project was built on a Raspberry Pi Zero 2W.
 
 ### Operating System
 
@@ -28,8 +29,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### Raspberry Pi Camera Python Package
 
+`--no-install-recommends` installs a slimmer package without some windowing dependencies, as would be suitable on Raspberry Pi OS Lite
+
 ```bash
-sudo apt install -y python3-picamera2
+sudo apt install python3-picamera2 --no-install-recommends
 ```
 
 ## Application Setup

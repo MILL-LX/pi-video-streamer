@@ -42,3 +42,11 @@ sudo apt install python3-picamera2 --no-install-recommends
 ```bash
 git clone https://github.com/MILL-LX/pi-video-streamer.git
 ```
+
+### Make the Project's Python Virtual Environment
+
+Make sure to include the site packages to gain acces to the Picamera2 that was installed with `apt`
+
+```bash
+uv venv --system-site-packages
+```

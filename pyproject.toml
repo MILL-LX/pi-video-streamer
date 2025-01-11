@@ -1,7 +1,7 @@
 [project]
 name = "pi-video-streamer"
 version = "0.1.0"
-description = "Add your description here"
+description = "Pi Camera Web Streamer"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []

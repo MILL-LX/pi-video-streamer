@@ -2,9 +2,9 @@ from io import BytesIO
 import time
 
 from flask import Flask, Response, render_template_string
-from picamera2 import Picamera2
 from libcamera import Transform
-
+from picamera2 import Picamera2
+import numpy as np
 
 # Initialize the camera
 camera = Picamera2()

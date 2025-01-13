@@ -48,5 +48,6 @@ git clone https://github.com/MILL-LX/pi-video-streamer.git
 Make sure to include the site packages to gain acces to the Picamera2 that was installed with `apt`
 
 ```bash
+cd app
 uv venv --system-site-packages
 ```

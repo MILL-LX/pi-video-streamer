@@ -29,7 +29,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### Raspberry Pi Camera Python Package
 
-`--no-install-recommends` installs a slimmer package without some windowing dependencies, as would be suitable on Raspberry Pi OS Lite
+The following installs the picamera2 package including its dependencies such as a compatible version of numpy. The `--no-install-recommends` option installs a slimmer package without some windowing dependencies, as would be suitable on Raspberry Pi OS Lite.
 
 ```bash
 sudo apt install python3-picamera2 --no-install-recommends

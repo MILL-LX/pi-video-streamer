@@ -8,7 +8,7 @@ import numpy as np
 
 # Initialize the camera
 camera = Picamera2()
-camera.configure(camera.create_video_configuration(transform=Transform(vflip=True), main={"size": (640, 480)}))
+camera.configure(camera.create_video_configuration(transform=Transform(vflip=True, hflip=True), main={"size": (640, 480)}))
 camera.set_controls({"AwbEnable": True})  # Enable auto white balance
 camera.start()
 

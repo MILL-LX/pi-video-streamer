@@ -21,6 +21,14 @@ sudo apt install \
     python3-pip 
 ```
 
+### Add WiFi Networks 
+
+If this will join networks besides the one configured when creatind the SD Card, you can add them with the Text UI for the Network Manager.
+
+```bash
+sudo nmtui
+```
+
 ### [uv](https://github.com/astral-sh/uv) for Python Dependency Management
 
 ```bash
